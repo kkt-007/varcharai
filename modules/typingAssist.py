@@ -15,8 +15,8 @@ class TypingAssistant:
         self.buffer = ""
         self.target_window = None
         self.running = True
-        self.window_manager = ActiveWindowManager()  # Assuming you have a WindowManager class
-        self.ai_responder = AIResponder()  # Assuming you have an AIResponder class
+        self.window_manager = ActiveWindowManager()  
+        self.ai_responder = AIResponder()  
 
     def monitor_keystrokes(self):
         def on_press(key):
