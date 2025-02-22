@@ -3,9 +3,13 @@ import time
 import pyautogui
 import pyperclip
 import platform
+import requests
+from PIL import Image
+from io import BytesIO
 from pynput import keyboard, mouse
 from modules.activeWindow import ActiveWindowManager
 from modules.aiResponder import AIResponder
+
 
 class TypingAssistant:
     def __init__(self, trigger_words=None):
