@@ -19,7 +19,7 @@ varcharAI Assistant is a **cross-platform supported code** that launches a real-
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/your-username/varcharai.git
+git clone https://github.com/kkt-007/varcharai.git
 cd varcharai
 ```
 ### 2️⃣ Create a Virtual Environment
