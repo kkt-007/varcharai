@@ -3,6 +3,7 @@ import time
 import pyautogui
 import pyperclip
 import platform
+import random
 import requests
 from PIL import Image
 from io import BytesIO
@@ -21,6 +22,25 @@ class TypingAssistant:
         self.running = True
         self.window_manager = ActiveWindowManager()  
         self.ai_responder = AIResponder()  
+        self.greetings = [
+                            "Hello! How can I assist you today?",
+                            "Hey there! Ready to type?",
+                            "Hi! What's on your mind?",
+                            "Greetings! Need any help?",
+                            "Hello! Let's get started.",
+                            "Hey! What can I do for you today?",
+                            "Hi there! How's it going?",
+                            
+                            # Funny Greetings
+                            "Beep boop! AI at your service 🤖",
+                            "Hey! I was just taking a nap. What's up? 😴",
+                            "Hello, human! I promise I won't take over the world... yet. 😈",
+                            "You type, I assist. That's the deal, right? 😜",
+                            "Hi! I'm 90% caffeine and 10% AI. What's up? ☕",
+                            "Yo! If you type 'pizza', I might just order one for myself. 🍕",
+                            "Hello! I'd tell you a joke, but I'm afraid it'll be too 'artificial'. 😆",
+                            "Ah, another day, another keyboard to conquer! ⌨️🔥"
+                        ]
 
     def monitor_keystrokes(self):
         def on_press(key):
@@ -43,6 +63,9 @@ class TypingAssistant:
                         if command:
                             if trigger == "aiimage:":
                                 response = self.ai_responder.image_command(command)
+                                self.write_to_target_window(response, trigger)
+                            elif trigger == "varcharai:":
+                                response = random.choice(self.greetings) 
                                 self.write_to_target_window(response, trigger)
                             else:
                                 response = self.ai_responder.process_command(command)
@@ -77,6 +100,8 @@ class TypingAssistant:
 
         if trigger == "aicode:":
             command = f"{command} without explanation, language name and ```"
+        else:
+            command = f"{command} without any formatting" 
         
         print(f"Command received: {command}")
         return command
@@ -85,7 +110,7 @@ class TypingAssistant:
         try:
             current_window = self.window_manager.get_active_window()
             if current_window == self.target_window:
-                if trigger == "aitext:":
+                if trigger == "aitext:" or trigger == "varcharai:":
                     pyautogui.typewrite(text)
                 elif trigger == "aicode:":
                     pyperclip.copy(text)
