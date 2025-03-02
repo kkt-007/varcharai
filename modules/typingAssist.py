@@ -15,7 +15,7 @@ from modules.aiResponder import AIResponder
 class TypingAssistant:
     def __init__(self, trigger_words=None):
         if trigger_words is None:
-            trigger_words = {"varcharai:", "aitext:", "aicode:","aiimage:","aicode:"}
+            trigger_words = {"varcharai:", "aitext:", "aicode:","aiimage:"}
         self.trigger_words = set(trigger_words)
         self.buffer = ""
         self.target_window = None
