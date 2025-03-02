@@ -41,7 +41,7 @@ OPENAI_API_KEY = ''
 ```sh
 python main.py
 ```
-Once the Application is running it listens to the trigger words and once trigger word is detected whatever user types is taken as input after press the enter button.
+Once the Application is running it listens to the trigger words and once trigger word is detected whatever user types is taken as input after pressing the enter button.
 ```sh
 aitext: # for general usage, looses the response format
 aicode: # for wiritng code , keeps the response format
