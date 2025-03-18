@@ -1,10 +1,10 @@
-# varcharAI Assistant 
+# AI Assistant 
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 [![Cross-Platform](https://img.shields.io/badge/Cross%20Platform-MacOS%20%7C%20Windows-blue)](https://www.python.org/downloads/)
 
 ## 📖 Overview  
-varcharAI Assistant is a **cross-platform supported code** that launches a real-time typing assistant. The assistant listens for a trigger word and generates AI-powered suggestions.
+AI Assistant is a **cross-platform supported code** that launches a real-time typing assistant. The assistant listens for a trigger word and generates AI-powered suggestions.
 
 ## ✨ Features  
 ✅ AI-Powered ** Assistance**
