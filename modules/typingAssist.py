@@ -38,7 +38,7 @@ class TypingAssistant:
                             "You type, I assist. That's the deal, right? 😜",
                             "Hi! I'm 90% caffeine and 10% AI. What's up? ☕",
                             "Yo! If you type 'pizza', I might just order one for myself. 🍕",
-                            "Hello! I'd tell you a joke, but I'm afraid it'll be too 'artificial'. 😆",
+                            "Hello! I'd tell you a joke, but I'm afraid it'll be too artificial. 😆",
                             "Ah, another day, another keyboard to conquer! ⌨️🔥"
                         ]
 
@@ -111,7 +111,7 @@ class TypingAssistant:
             current_window = self.window_manager.get_active_window()
             if current_window == self.target_window:
                 if trigger == "aitext:" or trigger == "varcharai:":
-                    pyautogui.typewrite(text)
+                    pyautogui.typewrite(text, interval=0.06)
                 elif trigger == "aicode:":
                     pyperclip.copy(text)
                     pyautogui.hotkey('command' if platform.system() == "Darwin" else 'ctrl', 'v', interval=0.2)
