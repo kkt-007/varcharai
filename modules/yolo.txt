@@ -127,8 +127,3 @@ For this extension:
 
 You can log the detected objects over time (e.g., saving to a file or database).
 You can then send a history of detected objects to OpenAI, asking it to summarize or analyze trends over time.
-Next Steps:
-Integrate with a more advanced object detection model (YOLO or similar) for accurate real-time analysis.
-Use OpenAI to interpret and act based on what is detected.
-Store and analyze a history of detections for a smarter system.
-Would you like further help with setting up any of these steps or something else in your project?
