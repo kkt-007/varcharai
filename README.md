@@ -82,4 +82,4 @@ If you get security warnings on macOS, allow the app in:
 
 ### 📝 License
 
-This project is open-source under the Apache license 2.0.
+This project is open-source under the [MIT License](https://opensource.org/licenses/MIT).
