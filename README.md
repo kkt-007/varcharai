@@ -14,7 +14,7 @@ AI Assistant is a **cross-platform supported code** that launches a real-time ty
     ✅ aiimage: # for generating images, e.g aiimage: Generate an ai image of varcharai.  
 ✅ **Cross-Platform** (Windows, macOS)  
 
-## ✨ Features- coming soon
+## ✨ Coming soon
 ✅ AI-Powered Audio and Vision  
 ✅ Support to other LLM Models
 
