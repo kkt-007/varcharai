@@ -17,7 +17,7 @@ AI Assistant is a **cross-platform supported code** that launches a real-time ty
 
 ## ✨ Features- coming soon
 ✅ AI-Powered Audio and Vision  
-✅ Support to other LLM Model
+✅ Support to other LLM Models
 
 ## 🚀 Installation  
 
