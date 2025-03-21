@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 ### 4️⃣ Setup keys in .env
 ```sh
-OPENAI_API_KEY = ''
+API_KEY = ''
 ```
 ### 5️⃣ Run the Application
 ```sh
