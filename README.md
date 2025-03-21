@@ -15,6 +15,9 @@ AI Assistant is a **cross-platform supported code** that launches a real-time ty
 ✅ Uses **QProcess** to run background AI listener  
 ✅ **Cross-Platform** (Windows, macOS)  
 
+## ✨ Features- coming soon
+✅ AI-Powered Audio and Vision
+
 ## 🚀 Installation  
 
 ### 1️⃣ Clone the Repository  
