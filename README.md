@@ -28,7 +28,7 @@ cd varcharai
 ```
 ### 2️⃣ Create a Virtual Environment
 ```sh
-python3 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 # OR
 .venv\Scripts\activate      # Windows
