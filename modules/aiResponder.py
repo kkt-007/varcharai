@@ -6,7 +6,7 @@ load_dotenv()
 
 class AIResponder:
     def __init__(self):
-        api_key = os.getenv("OPENAI_API_KEY")
+        api_key = os.getenv("API_KEY")
         self.client = OpenAI(api_key=api_key)
         self.conversation_history = [{"role": "system", "content": "You are a helpful assistant."}]
     
