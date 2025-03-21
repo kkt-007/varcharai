@@ -12,7 +12,6 @@ AI Assistant is a **cross-platform supported code** that launches a real-time ty
     ✅ aitext: # for general usage, e.g aitext: Write a short parahgraph on AI topic.  
     ✅ aicode: # for writng code, e.g aicode: Write a python code to identify odd even.  
     ✅ aiimage: # for generating images, e.g aiimage: Generate an ai image of varcharai.  
-✅ Uses **QProcess** to run background AI listener  
 ✅ **Cross-Platform** (Windows, macOS)  
 
 ## ✨ Features- coming soon
