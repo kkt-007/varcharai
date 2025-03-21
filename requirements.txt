@@ -5,3 +5,5 @@ python-dotenv==1.0.1
 pywin32==308
 requests==2.32.3
 pillow==11.1.0
+opencv-python==4.11.0.86
+yolo==0.3.2
