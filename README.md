@@ -82,4 +82,4 @@ If you get security warnings on macOS, allow the app in:
 
 ### 📝 License
 
-This project is open-source under the [MIT License]([https://github.com/kkt-007/varcharai/blob/b45b55592a2636c6fad14413420734f1c0a870c9/LICENSE.md]).
+This project is open-source under the [MIT License](https://github.com/kkt-007/varcharai/blob/b45b55592a2636c6fad14413420734f1c0a870c9/LICENSE.md).
